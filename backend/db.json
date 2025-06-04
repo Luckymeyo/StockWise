@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1746870888607,
+      "firstName": "Rigel",
+      "lastName": "Alvorna",
+      "email": "rigel@example.com",
+      "phone": "08123456789",
+      "password": "password123"
+    },
+    {
+      "id": 1746871580623,
+      "firstName": "Lucky",
+      "lastName": "Kimtheja",
+      "email": "rachelrosewellfinessa@gmail.com",
+      "phone": "082151606001",
+      "password": "Penajam2002"
+    },
+    {
+      "id": 1746985040213,
+      "firstName": "",
+      "lastName": "",
+      "email": "vinleychang@gmail.com",
+      "phone": "",
+      "password": "Penajam2002"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "nvw0sVLH-W",
+      "name": "Hawaiian Pizza",
+      "predicted": 30,
+      "actual": 7,
+      "status": "understock"
+    },
+    {
+      "id": "dAe9Ca9X2H",
+      "name": "Vegetarian Pizza",
+      "predicted": 30,
+      "actual": 321,
+      "status": "overstock"
+    }
+  ]
+}
