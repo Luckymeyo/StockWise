@@ -6,6 +6,7 @@ import { renderAboutPage } from '../pages/about.js';
 import { renderDistributionPage } from '../pages/distribution.js';
 import { renderTransactionPage } from '../pages/transaction.js';
 import { renderStockPredictionPage } from '../pages/stock-prediction.js';
+import { applyPageTransition } from '../utils/page-transition.js';
 
 export function handleRouting() {
   const hash = window.location.hash;
@@ -32,11 +33,13 @@ export function handleRouting() {
     case '#/about':
       renderAboutPage();
       break;
-      case '#/distribution': // ADD THIS
+    case '#/distribution':
       renderDistributionPage();
       break;
     default:
       renderLoginPage(); // Default route (could be a 404 or login)
       break;
   }
+
+  applyPageTransition();
 }
